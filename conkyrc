@@ -1,0 +1,18 @@
+conky.config = {
+    alignment = 'top_right',
+    background = true,
+    double_buffer = true,
+    draw_borders = false,
+    draw_graph_borders = false,
+    update_interval = 1.0,
+    use_xft = true,
+    font = 'DejaVu Sans Mono:size=10',
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_transparent = true,
+};
+
+conky.text = [[
+${execpi 60 curl -s http://localhost:5000/tasks | jq -r '.[]' }
+]];
+
