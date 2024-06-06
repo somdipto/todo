@@ -112,3 +112,6 @@ Feel free to submit issues, fork the repository and send pull requests. Contribu
 ## License
 
 This project is licensed under the MIT License.
+
+
+## this is completely mabe by GPT using prompt engenering skills under 2 min...
